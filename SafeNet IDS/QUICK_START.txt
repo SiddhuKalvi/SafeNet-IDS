@@ -1,0 +1,84 @@
+═══════════════════════════════════════════════════════════════════════════════
+                         SAFENET IDS - QUICK START
+═══════════════════════════════════════════════════════════════════════════════
+
+STEP 1: RUN THE APP
+───────────────────
+  pnpm dev
+
+STEP 2: OPEN IN BROWSER
+────────────────────────
+  http://localhost:3000
+
+STEP 3: CLICK "START CAPTURE"
+──────────────────────────────
+  Button is in the top right corner
+
+STEP 4: WATCH REAL-TIME ALERTS APPEAR
+──────────────────────────────────────
+  - Statistics update at top
+  - Alerts appear in the table
+  - Chart shows traffic patterns
+
+THAT'S IT! You now have a working Network Intrusion Detection System.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+WHAT YOU'LL SEE:
+
+📊 4 Statistics Cards (Top)
+  • Critical Alerts - serious threats
+  • Warning Alerts - suspicious activity
+  • Total Packets - packets analyzed
+  • Threat Sources - unique attacking IPs
+
+📈 Real-Time Chart
+  • Blue line = packets per second
+  • Orange line = alerts per second
+  • Updates live as threats detected
+
+🚨 Alerts Table
+  • Shows every threat detected
+  • Source IP (attacker)
+  • Destination IP (target)
+  • Severity level
+  • Time detected
+  • Green check to mark as investigated
+
+═══════════════════════════════════════════════════════════════════════════════
+
+6 THREATS AUTOMATICALLY DETECTED:
+
+1. Port Scanning - Multiple ports from same IP
+2. DoS Attacks - Massive packet floods
+3. Blacklist Hits - Known malicious IPs
+4. Protocol Anomalies - Weird network packets
+5. Geographic Anomalies - Unusual locations
+6. Whitelist Violations - Untrusted connections
+
+═══════════════════════════════════════════════════════════════════════════════
+
+COMMON QUESTIONS:
+
+Q: Why don't I see alerts?
+A: Click "Start Capture" - must be running to generate alerts
+
+Q: Is this real?
+A: Yes! Real detection engine analyzing simulated packets
+
+Q: Where is data stored?
+A: Supabase PostgreSQL database - persists permanently
+
+Q: Can I stop and restart?
+A: Yes, click "Stop Capture" then "Start Capture" again
+
+Q: What is the chart showing?
+A: Real-time packets and alerts over time
+
+═══════════════════════════════════════════════════════════════════════════════
+
+THAT'S ALL YOU NEED TO KNOW!
+
+The app does everything automatically. Just run it, click Start, and watch it work.
+
+═══════════════════════════════════════════════════════════════════════════════
